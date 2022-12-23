@@ -42,4 +42,8 @@ jobs:
         run: cdk deploy
         working-directory: CDK-AWS
 
+      - name: CDK Destroy
+        run: cdk destroy
+        working-directory: CDK-AWS
+
       
