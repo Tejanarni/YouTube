@@ -34,9 +34,9 @@ jobs:
         run: 'pip3 install -r requirements.txt'
         working-directory: CDK-AWS
 
-      - name: Install aws-cdk.core
-        run: 'pip3 install aws-cdk.core'
-        working-directory: CDK-AWS
+      # - name: Install aws-cdk.core
+      #   run: 'pip3 install aws-cdk.core'
+      #   working-directory: CDK-AWS
 
       - name: CDK Synth
         run: cdk synth

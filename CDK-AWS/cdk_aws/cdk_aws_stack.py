@@ -18,7 +18,7 @@ class CdkAwsStack(cdk.Stack):
 ### SNS Topic ###
 
 
-import aws_cdk.aws_sns as sns
+from aws_cdk import aws_cdk.aws_sns as sns
 
 # data_protection_policy: Any
 
