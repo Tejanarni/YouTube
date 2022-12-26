@@ -11,7 +11,7 @@ from aws_cdk import core
 
 from cdk_aws.cdk_aws_stack import CdkAwsStack
 
-from stacks.notifications import NotificationStack
+from cdk_aws.notifications import NotificationStack
 
 
 app = core.App()
