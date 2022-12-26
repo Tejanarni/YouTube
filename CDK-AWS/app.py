@@ -11,10 +11,11 @@ from aws_cdk import core
 
 from cdk_aws.cdk_aws_stack import CdkAwsStack
 
-from aws_cdk import aws_cdk.aws_sns
+from stacks.notifications import NotificationStack
 
 
 app = core.App()
+notification = NotificationStack(app,'notification')
 CdkAwsStack(app, "CdkAwsStack",
     # If you don't specify 'env', this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
