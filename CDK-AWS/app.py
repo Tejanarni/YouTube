@@ -11,6 +11,8 @@ from aws_cdk import core
 
 from cdk_aws.cdk_aws_stack import CdkAwsStack
 
+from aws_cdk import aws_cdk.aws_sns
+
 
 app = core.App()
 CdkAwsStack(app, "CdkAwsStack",

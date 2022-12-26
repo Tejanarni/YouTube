@@ -20,6 +20,8 @@ class CdkAwsStack(cdk.Stack):
 
 from aws_cdk import aws_cdk.aws_sns as sns
 
+from aws_cdk import aws_cdk.aws_sns
+
 # data_protection_policy: Any
 
 cfn_topic = sns.CfnTopic(self, "MyCfnTopic",
